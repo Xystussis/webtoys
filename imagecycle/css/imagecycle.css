@@ -1,0 +1,41 @@
+img {
+  width: 100%;
+  height: 100%;
+
+  /* overflow: auto; */
+}
+.ImageContainer {
+    width: 400px;
+    height: 400px;
+    /* background-color: pink; */
+    border: 1px solid #Cf2F3F;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 5px;
+
+}
+
+.ImageMed {
+  width: 90%;
+  margin: 2% auto;
+  border: 1px solid #0f2f3f;
+  height: 65%;
+  box-shadow: 3px 3px 5px grey;
+  border-radius: 5px;
+
+}
+
+.ImageSml {
+  width: 30%;
+  margin:  auto 1.3%;
+  border: 1px solid #0f2f3f;
+  height: 25%;
+  float: left;
+  box-shadow: 3px 3px 5px grey;
+  border-radius: 5px;
+  opacity: 0.2;
+
+}
+
+.selected {
+    opacity: 1.0;
+}
