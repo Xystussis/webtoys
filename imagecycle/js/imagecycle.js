@@ -74,3 +74,4 @@ nxt.addEventListener("click",function () {
   }
   changeSelection(selected);
 });
+changeSelection(selected);

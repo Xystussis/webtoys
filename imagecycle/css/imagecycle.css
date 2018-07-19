@@ -8,7 +8,7 @@ img {
     width: 400px;
     height: 400px;
     /* background-color: pink; */
-    border: 1px solid #Cf2F3F;
+    border: 1px solid gray;
     box-shadow: 3px 3px 5px grey;
     border-radius: 5px;
 
