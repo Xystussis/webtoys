@@ -24,8 +24,6 @@ var datasource = [{
 var len = datasource.length;
 //We have 3 blocks (previous image, current image, next image). "1" is the center block
 var selected = 1;
-var nxt = document.getElementById('next');
-var prev = document.getElementById('prev');
 
 function updateImages(selected) {
   if (selected == 0) {
@@ -58,7 +56,7 @@ function changeSelection(selected) {
 }
 
 //Add our click event to "previous"
-prev.addEventListener("click",function (event) {
+document.querySelectorAll(".ImageSml img")[0].addEventListener("click",function (event) {
   selected --;
   if (selected < 0) {
     selected = len -1;
@@ -67,7 +65,7 @@ prev.addEventListener("click",function (event) {
 });
 
 //Add our click event to "next"
-nxt.addEventListener("click",function () {
+document.querySelectorAll(".ImageSml img")[2].addEventListener("click",function () {
   selected++;
   if (selected == len) {
     selected = 0;
