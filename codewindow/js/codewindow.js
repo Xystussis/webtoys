@@ -40,7 +40,7 @@ php = {
         
     ],
 };
-
+function highlightCode() {
 document.querySelectorAll(".codewindow").forEach(function(element) {
     // console.log(element.innerHTML.replace(/function\s*.*\(.*\)/g,"<sadsad>$&<sadsd>"));
     php.string.forEach(function(item) {
@@ -69,3 +69,4 @@ document.querySelectorAll(".codewindow").forEach(function(element) {
     }); 
 
 },this); 
+}
