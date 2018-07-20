@@ -1,0 +1,29 @@
+.codewindow {
+    background-color: #232525;
+    color: #bdbdbd;
+}
+.reserved {
+    color: #d37b32;
+}
+.variable {
+    color: #786da2;
+}
+.string {
+    color: #639853;
+}
+.blockComment {
+    color: #639853;
+}
+.lineComment {
+    color: lightslategray;
+}
+.neutral {
+    color: #bdbdbd;
+}
+.number {
+    color: #6697b0;
+}
+.function {
+    color: #c09648;
+    /* font-size: 30px; */
+}
